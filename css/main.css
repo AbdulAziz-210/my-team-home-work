@@ -629,6 +629,9 @@ template {
     justify-content: center;
     align-items: center;
   }
+  .build__right-folder {
+    text-align: center;
+  }
   .build__right-folder > div {
     text-align: center;
   }
