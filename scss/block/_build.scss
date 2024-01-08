@@ -2,7 +2,15 @@
 
 
 
+.build-section{
+    background-color: #012F34;;
+    padding: 140px 0 140px ;
 
+    background-image: url("../images/find/right\ img.svg");
+    background-repeat: no-repeat;
+    background-size: 100px 244px;
+    background-position: bottom right;
+}
 .build{
     display: flex;
     // flex-direction: column;

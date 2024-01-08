@@ -3,11 +3,20 @@
 
 
 .find-section{
-    padding-bottom: 255px;
+    background-image: url("../images/find/find-back-img.svg");
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position-x:  calc(50% - 739px);
 }
 .find{
     display: flex;
     align-items: center;
+
+    padding-bottom: 250px;
+    background-image: url("../images/find/bottom\ img.svg");
+    background-repeat: no-repeat;
+    background-size: 358px 100px;
+    background-position: bottom right;
 }
 
 .find__title{

@@ -464,12 +464,20 @@ template {
 }
 
 .find-section {
-  padding-bottom: 255px;
+  background-image: url("../images/find/find-back-img.svg");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position-x: calc(50% - 739px);
 }
 
 .find {
   display: flex;
   align-items: center;
+  padding-bottom: 250px;
+  background-image: url("../images/find/bottom img.svg");
+  background-repeat: no-repeat;
+  background-size: 358px 100px;
+  background-position: bottom right;
 }
 
 .find__title {
@@ -539,6 +547,15 @@ template {
     line-height: 28px;
   }
 }
+.build-section {
+  background-color: #012F34;
+  padding: 140px 0 140px;
+  background-image: url("../images/find/right img.svg");
+  background-repeat: no-repeat;
+  background-size: 100px 244px;
+  background-position: bottom right;
+}
+
 .build {
   display: flex;
 }
@@ -638,4 +655,25 @@ template {
   .build__line {
     margin-bottom: 32px;
   }
+}
+.companie-section {
+  background-image: url("../../images/companie/top img.svg");
+  background-repeat: no-repeat;
+  background-size: 147px 100px;
+  background-position: left top;
+}
+
+.companie__folder {
+  padding-top: 140px;
+  width: 932px;
+  text-align: center;
+}
+
+.companie__title {
+  color: #FFF;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
 }/*# sourceMappingURL=main.css.map */
